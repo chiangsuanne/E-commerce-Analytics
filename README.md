@@ -5,28 +5,54 @@ A project in Google Sheets to analyze sales data and communicate findings in a w
 ## Project Overview
 An e-commerce company offers a wide range of products. With a focus on providing a seamless user experience, the company captures detailed event logs of user activities on its website. As part of its commitment to data-driven decision-making, the company was looking to transform raw transaction logs into valuable business metrics. My primary tasks included building a conversion funnel, preparing data for cohort analysis, calculating retention rates, and organizing the findings into a polished spreadsheet for presentation to the executive team.
 
-## Methodology, Technique, Result
+## Project Analysis
 **Building a Conversion Funnel:**  
-I created a conversion funnel using data from the “raw_user_activity” sheet. This specific funnel, named “conversion_funnel,” comprises three stages, capturing user interactions with the website. Through the implementation of advanced spreadsheet techniques and formulas, I ensured accurate tracking of unique users at each stage, presenting total conversion rates and conversion rates to the next step.  
+- Created a conversion funnel using data from the “raw_user_activity” sheet
+- The funnel, named “conversion_funnel,” comprises three stages, showcasing user interactions with the website
+- Implemented formulas to calculate total conversion rates and conversion rates to the next step
+- Utilized advanced spreadsheet techniques to ensure accurate counting of unique users at each stage
 
 **Data Preparation for Cohort Analysis:**
-Following the establishment of the conversion funnel, I prepared data for cohort analysis. By filtering purchase events from the “raw_user_activity” sheet and creating a dedicated “purchase_activity” sheet, a focused dataset of 4,845 rows, including column headers, was isolated. The subsequent calculation of first purchase dates for each user and the creation of three pivotal columns - ‘event_month’, ‘first_purchase_month’, and ‘cohort_age’ - positioned the project for insightful cohort analysis.   
+- Filtered purchase events from the “raw_user_activity” sheet and created a new sheet named “purchase_activity”
+- Isolated 4,845 rows of purchase data, including column headers
+- Calculated the first purchase dates for each user and transferred them to the “purchase_activity” sheet
+- Created three new columns—`event_month`, `first_purchase_month`, and `cohort_age`—to facilitate cohort analysis
  
 **Calculating Retention Rates:**
-Grouping the purchase data into cohorts using a pivot table on the “cohort_analysis” sheet, I configured the table to represent six cohorts based on the month of customers’ first purchases. This arrangement allowed for the calculation and presentation of overall retention rates in a new sheet, “retention_rates” offering a detailed perspective on user engagement over time.  
+- Grouped purchase data into cohorts using a pivot table in the “cohort_analysis” sheet
+- Configured the pivot table to represent six cohorts based on the month of customers' first purchases
+- Created a new sheet, “retention_rates,” to calculate and present overall retention rates
+- Applied formulas to calculate retention rates for each cohort at different cohort ages
 
 **Organizing and Documenting the Spreadsheet:**
-Finally, to ensure the project’s presentation met professional standards, I organized and documented the spreadsheet. The “Executive Summary” sheet was enriched with a results synopsis and analysis descriptions, summarizing findings from cohort analysis and retention rates. The entire spreadsheet was formatted for readability for an overall polished appearance conducive to executive review.  
+- Filled in the results synopsis and analysis descriptions in the “Executive Summary” sheet
+- Reordered sheet tabs for optimal organization, placing “Table of Contents” and “Executive Summary” first
+- Formatted spreadsheets for readability, including number and date formatting, table borders, bold headers, and frozen rows
+- Ensured the spreadsheet is polished and professional for presentation to the executive team
 
 ## Executive Summary
-### Results
-**Cohort Analysis**: The first cohort group has the smallest number of users, but has the longest age of user of 4 months. 	
+### Conclusion
+**Cohort Analysis and User Age Dynamics**   
+The observation that the first cohort group possesses the smallest user count but exhibits the longest user age of 4 months implies a potential trend of user longevity despite a modest initial user base.
 
-**Retention Rates**: Retention rates are highest after the first month and then continue to decrease throughout the months for each cohort group, excluding the 2020-09 group. 		
+**Retention Rate Trends**   
+Retention rates peak in the first month across all cohort groups and gradually decline in subsequent months, with an exception noted for the 2020-09 cohort.The identified trend could prompt further investigation into factors contributing to the unsual pattern in the 2020-09 cohort. Insights may uncover specific strategies or user behaviors affecting retention dynamics.	
 
-### Analysis
-**Raw Data**: The raw data includes the timeframe starting 2020-09 through 2021-02. There are three event activities. Each time a user views a product page, opens their shopping cart, or completes a purchase, the event is captured in the activity logs. We filtered for purchase activities since we are interested understanding conversion of product views into purchases and tracking month by month cohort metrics based on the month of a user's first purchase. After filtering, our columns of focus were user_id and event_date. 		
+### Suggestions for Further Improvement or Business Outcomes
+1. **Enhance Initial Cohort Engagement:**  
+    - *Suggestion:* Implement targeted marketing or onboarding strategies for new users to boost the initial cohort size, considering the potential for longer user retention observed in the first cohort group. 
+    - *Expected Outcome:* Increased user acquisition and potentially higher long-term retention, positively impacting overall customer lifetime value. 
+2. **Investigate Anomalies in Retention Rates:**  
+    - *Suggestion:* Conduct a detailed analysis of the 2020-09 cohort to identify factors contributing to its unique retention rate trend. Investigate product launches, marketing campaigns, or user experience changes during that period. 
+    - *Expected Outcome:* Uncover insights into specific elements influencing user behavior, enabling the company to replicate successful strategies or address issues affecting retention. 
+3. **Optimize Retention Strategies Beyond the First Month:**  
+    - *Suggestion:* Develop targeted retention strategies for months beyond the initial phase, aiming to sustain user engagement. Implement personalized communication, loyalty programs, or feature enhancements to address potential drop-offs. 
+    - *Expected Outcome:* Mitigate the observed decline in retention rates over time, fostering prolonged user engagement and increasing overall customer loyalty. 
+4. **Implement A/B Testing for User Experience:**  
+    - *Suggestion:* Conduct A/B testing on the website's user interface, navigation, or checkout process to identify elements that positively impact conversion rates. Implement changes based on successful outcomes. 
+    - *Expected Outcome:* Improved conversion rates at various stages of the sales process, contributing to a more seamless user experience and potentially higher overall sales. 
+5. **Iterative Analysis and Continuous Monitoring:**  
+    - *Suggestion:* Establish a routine for iterative cohort analysis and continuous monitoring of user behavior. Regularly update the analysis based on new data, allowing the company to adapt strategies in response to evolving trends.  
+    - *Expected Outcome:* Timely identification of changing user patterns and the ability to proactively adjust business strategies to align with user preferences and market dynamics.  
 
-**Conversion Funnel**: Using the raw data, the unique count of user ids of each event was determined to calculate the total conversion rates and the conversion rates in the funnel of next steps.	
-
-**Retention Rates**: To calculate retention rate, the number of users in each cohort were grouped by the unique values of each user id for the starting cohort depending on the month of a user's first purchase. Month by month cohort metrics were calculated by aggregating the unique values of user id within the difference of number of months between the first purchase and the respective purchases. Retention rate was calculated by dividing the number of month to month cohort sizes from the starting cohort size as a percentage value. 	
+Implementing these suggestions can contribute to a more proactive and data-driven approach, fostering continuous improvement in user engagement, conversion rates, and overall business performance for the e-commerce company.
