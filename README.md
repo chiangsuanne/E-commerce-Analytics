@@ -1,9 +1,11 @@
 # E-commerce-Analytics
 A project in Google Sheets to analyze sales data and communicate findings in a way that executives can understand easily.  
 [Project Link](https://docs.google.com/spreadsheets/d/10b5HvXs2XzCHScZjHYnhYyKPGJEpNpwGi2lTrieSl40/edit#gid=38637670)
-
-## Project Overview
-An e-commerce company offers a wide range of products. With a focus on providing a seamless user experience, the company captures detailed event logs of user activities on its website. As part of its commitment to data-driven decision-making, the company was looking to transform raw transaction logs into valuable business metrics. My primary tasks included building a conversion funnel, preparing data for cohort analysis, calculating retention rates, and organizing the findings into a polished spreadsheet for presentation to the executive team.
+## Introduction
+### Company Overview
+An e-commerce company offers a wide range of products. With a focus on providing a seamless user experience, the company captures detailed event logs of user activities on its website. As part of its commitment to data-driven decision-making, the company was looking to transform raw transaction logs into valuable business metrics. 
+### Objective
+My primary tasks included building a conversion funnel, preparing data for cohort analysis, calculating retention rates, and organizing the findings into a polished spreadsheet for presentation to the executive team.
 
 ## Project Analysis
 **Building a Conversion Funnel:**  
