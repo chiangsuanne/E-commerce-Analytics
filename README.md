@@ -38,7 +38,7 @@ The primary focus of the project is to gain comprehensive insights into user beh
 
 **Retention Rate Trends**: Retention rates peak in the first month across all cohort groups and gradually decline in subsequent months, with an exception noted for the 2020-09 cohort.The identified trend could prompt further investigation into factors contributing to the unsual pattern in the 2020-09 cohort. Insights may uncover specific strategies or user behaviors affecting retention dynamics.	
 
-### Suggestions for Further Improvement or Business Outcomes
+### Suggestions for Further Improvement and Business Outcomes
 1. **Enhance Initial Cohort Engagement:**  
     - *Suggestion:* Implement targeted marketing or onboarding strategies for new users to boost the initial cohort size, considering the potential for longer user retention observed in the first cohort group. 
     - *Expected Outcome:* Increased user acquisition and potentially higher long-term retention, positively impacting overall customer lifetime value. 
