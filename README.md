@@ -34,9 +34,9 @@ The primary focus of the project is to gain comprehensive insights into user beh
 
 ## Executive Summary
 ### Conclusion
-**Cohort Analysis and User Age Dynamics**: The observation that the first cohort group possesses the smallest user count but exhibits the longest user age of 4 months implies a potential trend of user longevity despite a modest initial user base.
+**Cohort Analysis and User Age Dynamics**: The observation that the 2020-09 cohort group possesses the smallest user count but exhibits the longest user age of 4 months implies a potential trend of user longevity despite a modest initial user base.
 
-**Retention Rate Trends**: Retention rates peak in the first month across all cohort groups and gradually decline in subsequent months, with an exception noted for the 2020-09 cohort.The identified trend could prompt further investigation into factors contributing to the unsual pattern in the 2020-09 cohort. Insights may uncover specific strategies or user behaviors affecting retention dynamics.	
+**Retention Rate Trends**: Retention rates peak in the first month across all cohort groups and gradually decline to 0% within 4 months, with an exception noted for the 2020-09 cohort. The identified trend could prompt further investigation into factors contributing to the unsual pattern in the 2020-09 cohort. Insights may uncover specific strategies or user behaviors affecting retention dynamics.	
 
 ### Suggestions for Further Improvement and Business Outcomes
 1. **Enhance Initial Cohort Engagement:**  
